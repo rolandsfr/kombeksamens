@@ -173,3 +173,9 @@ a {
     /* background-position: center; */
     background-repeat: no-repeat;
 }
+
+@media only screen and (max-width: 1024px) {
+    textarea {
+        width: 100%;
+    }
+}
