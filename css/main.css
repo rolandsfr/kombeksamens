@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+}
+
+body {
+    width: 100%;    
+    margin: 0;
+    padding: 0;
+}
+
+
+html {
+    font-size: 10px;
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 3rem;
+    margin-top: 2em;
+}
+
+.subtitle {
+    font-size: 1.8rem;
+    font-weight: 300;
+    letter-spacing: normal;
+    text-transform: none;
+    margin-top: -1em;
+}
+
+.question {
+    font-size: 2rem;
+    margin-bottom: 0em !important;
+}
+
+h2 {
+    margin-top: 2em;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}
+
+h2:last-of-type {
+    margin-top: 1.2em !important;
+    text-transform: none;
+}
+
+ol {
+    width: 100%;
+    padding-right: 0 !important;
+    overflow-wrap: break-word;
+}
+
+ol > li {
+    line-height: 2em;
+}
+
+video {
+    width: 100%;
+    margin: 1em 0;
+}
+
+label {
+    font-size: 1.8rem;
+    margin-top: 1em;
+}
+
+textarea {
+    width: 50%;
+    font-size: 1.6rem;
+    outline: none;
+    margin: 1em 0;
+    border: 2px solid #000;
+}
+
+button {
+    background: none;
+    border: 2px solid #000;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    padding: 0.4em 2em;
+    padding-bottom: 0.5em;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+button:hover {
+    color: #ffffff;
+    background: #000;
+}
+
+input {
+    border: 2px solid #000;
+    outline: none;
+    padding: 0.3em 1em;
+    margin-top: 1em;
+}
+
+.results {
+    margin: 3em 0;
+}
+
+.results > button {
+    margin-top: 1em !important;
+}
+
+.error-msg {
+    color: red;
+    font-size: 1.5rem;
+    display: none;
+}
+
+.results-block > p {
+    padding: 0.5em 2em;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 1.5rem;
+    display: none;
+}
+
+.results-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: -2.5em;
+}
+
+.bad {
+    background-color: red;
+}
+
+.ok {
+    background-color: orange;
+}
+
+.legend {
+    background-color: green;
+}
+
+h2.conclusions {
+    margin-top: 2em !important;
+    font-size: 1.8rem;
+}
+
+.justification {
+    margin-bottom: 5em;
+}
+
+footer {
+    font-size: 1.6rem;
+    width: 100%;
+    padding: 3em 0em;
+    background-color: #fafafa;
+    word-spacing: 0.2em;
+}
+
+a {
+    color: orange;
+}
+
+.placeholder {
+    /* width: 100%; */
+    height: 30vh;
+    background-image: url("../assets/MeekAdorableIaerismetalmark-size_restricted.gif");
+    /* background-size: cover; */
+    /* background-position: center; */
+    background-repeat: no-repeat;
+}
